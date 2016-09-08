@@ -1,0 +1,36 @@
+This README file contains information on the contents of the
+meta-network-device layer.
+
+Please see the corresponding sections below for details.
+
+
+Dependencies
+============
+
+This layer depends on:
+
+  URI: git://git.openembedded.org/bitbake
+  branch: master
+
+  URI: git://git.openembedded.org/openembedded-core
+  layers: meta
+  branch: master
+
+  URI: git://git.openembedded.org/meta-openembedded
+  layers: meta-oe
+          meta-networking
+          meta-python
+  branch: master
+
+  URI: git://git.yoctoproject.org/meta-virtualization
+  layers: meta-virtualization
+  branch: master
+
+
+Patches
+=======
+
+Please submit any patches against the meta-network-device layer directly
+to the maintainer:
+
+Maintainer: Mariano Lopez <mariano.lopez@linux.intel.com>
